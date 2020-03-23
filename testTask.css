@@ -1,0 +1,435 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+header {
+    background: blueviolet;
+    width: 100%;
+    height: 30%;
+    border-top: 1px solid transparent;
+}
+.parent {
+    margin: 0 20%;
+}
+.btn {
+    background: lightblue;
+    width: 12vw;
+    height: 20vh;
+    margin-top: 2em;
+}
+.header {
+    display: inline-block;
+    margin-top: 30px;
+}
+p {
+    margin: 2em 2em 5em 2em;
+
+}
+
+.circle {
+    background: lightblue;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 4em 0 2.5em;
+    /*margin-right: 50px;*/
+    /*margin-left: 40px;*/
+    /*margin: 60px auto;*/
+    position: relative;
+
+}
+
+.block {
+    margin-top: 75px;
+    width: 140px;
+    height: 50px;
+    transform-origin: 100%;
+    transform: rotate(0deg);
+    position: absolute;
+    z-index: 1;
+}
+.block:nth-child(1) {
+    transform: rotate(45deg);
+}
+.block:nth-child(2) {
+    transform: rotate(180deg);
+}
+.block:nth-child(3) {
+    transform: rotate(135deg);
+}
+.block:nth-child(4) {
+    transform: rotate(-45deg);
+}
+.block:nth-child(5) {
+    transform: rotate(360deg);
+}
+.block:nth-child(6) {
+    transform: rotate(-135deg);
+}
+.square {
+    background: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+main {
+    margin: 3% 15%;
+}
+
+.products {
+    width: 75%;
+    height: 100vh;
+    float: left;
+    margin-right: 1em;
+}
+.main {
+    margin-bottom: 2em;
+    background: lightgreen;
+    width: 100%;
+    height: 14em;
+    position: relative;
+
+}
+.sidebar {
+    background: blueviolet;
+    width: 15%;
+    height: 100em;
+    float: left;
+}
+.part {
+    display: inline-block;
+}
+.part1 {
+    background: blueviolet;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+    top: 30%;
+    left: 7%;
+}
+.part2 {
+    margin: 3% 20%;
+    border-radius: 50%;
+    top: 30%;
+    left: 15%;
+}
+h4 {
+    padding-bottom: 1em;
+}
+h4, #text {
+    margin: 0 auto;
+}
+
+.part3 {
+    background: blueviolet;
+    height: 14em;
+    width: 15%;
+    position: absolute;
+    right: 0;
+    /*border-top: 1px solid transparent;*/
+}
+span {
+    display: block;
+    color: white;
+    font-weight: bold;
+    margin: 1em 0;
+    text-align: center;
+}
+#circle1, #circle2 {
+    display: block;
+    color: white;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 6px;
+    margin: 0 2em;
+    text-align: center;
+}
+.range {
+    position: relative;
+}
+.art {
+    float: left;
+    display: inline-block;
+    height: 50%;
+    width: 47%;
+    padding: 10px;
+}
+.art:hover {
+    color: blue;
+}
+.art:active {
+    color: mediumvioletred;
+}
+.description {
+    padding: 0;
+    margin: 0;
+}
+.img {
+    background: lightgreen;
+    height: 150px;
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+}
+#last {
+    background: lightblue;
+}
+.odd {
+    font-size: 18px;
+    background: blueviolet;
+    padding: 17px 65px;
+    border: none;
+    border-radius: 4px;
+    margin: 5em 4em;
+}
+.even {
+    font-size: 18px;
+    background: blueviolet;
+    padding: 17px 65px;
+    border: none;
+    border-radius: 4px;
+    margin: 7% 37%;
+
+}
+@media screen
+and (min-width: 992px)
+and (max-width: 1200px) {
+    .parent {
+        margin: 0 10% ;
+    }
+    .btn {
+        width: 120px;
+        height: 50px;
+        margin-top: 30px;
+    }
+    p {
+        font-size: 16px;
+        margin: 1.5em 2em;
+    }
+    .one {
+        float: left;
+    }
+    .three {
+        float: right;
+    }
+
+    .circle {
+        width: 110px;
+        height: 110px;
+        margin-left: 70%;
+        margin-bottom: 2em;
+
+
+    }
+    .square {
+        width: 40px;
+        height: 40px;
+    }
+
+    .block {
+        margin-top: 45px;
+        margin-left: 8%;
+        width: 100px;
+        height: 38px;
+    }
+    main {
+        margin: 2% 5%;
+    }
+
+    .products {
+        width: 82%;
+    }
+    .main {
+        margin-bottom: 1em;
+        height: 12em;
+    }
+    .part1 {
+        width: 60px;
+        height: 60px;
+        left: 4%;
+    }
+    .part2, span  {
+        font-size: 14px;
+    }
+    .part3 {
+        height: 12em;
+    }
+    #circle1, #circle2 {
+        margin: 1em 1em;
+    }
+    .art {
+        height: 40%;
+        width: 45%;
+        padding: 12px;
+    }
+    .img {
+        height: 130px;
+        width: 100%;
+    }
+
+    .odd, .even {
+        font-size: 14px;
+        padding: 1vh 5vw;
+        margin: 4em 4em;
+    }
+    .even {
+        margin: 4% 35%;
+
+    }
+
+}
+
+@media screen
+and (min-width: 768px)
+and (max-width: 991px) {
+    .parent {
+        margin: 0 8% ;
+    }
+    .btn {
+        width: 100px;
+        height: 40px;
+        margin-top: 20px;
+    }
+    p {
+        font-size: 12px;
+        margin: 1.5em 2em;
+    }
+    .one {
+        float: left;
+    }
+    .three {
+        float: right;
+    }
+
+    .circle {
+        width: 110px;
+        height: 110px;
+        margin-left: 60%;
+        margin-bottom: 1em;
+
+
+    }
+    .square {
+        width: 30px;
+        height: 30px;
+    }
+
+    .block {
+        margin-top: 45px;
+        margin-left: 9%;
+        width: 80px;
+        height: 30px;
+    }
+    main {
+        margin: 2% 5%;
+    }
+
+    .products {
+        width: 82%;
+    }
+    .main {
+        margin-bottom: 1em;
+        height: 12em;
+    }
+    .part1 {
+        width: 60px;
+        height: 60px;
+        left: 4%;
+    }
+    .part2, span  {
+        font-size: 14px;
+    }
+    .part3 {
+        height: 12em;
+    }
+    #circle1, #circle2 {
+        margin: 1em 1em;
+    }
+    .art {
+        height: 40%;
+        width: 45%;
+        padding: 12px;
+    }
+    .img {
+        height: 130px;
+        width: 100%;
+    }
+
+    .odd, .even {
+        font-size: 14px;
+        padding: 1vh 5vw;
+        margin: 4em 4em;
+    }
+    .even {
+        margin: 4% 35%;
+
+    }
+
+}
+
+@media screen
+and (max-width: 320px) {
+    .header {
+        margin-top: 0;
+    }
+    .btn {
+        width: 100px;
+        height: 40px;
+        margin-top: 20px;
+    }
+    p {
+        font-size: 12px;
+        margin: 1em 2em;
+    }
+
+    .circle, .square, .block, .sidebar {
+        display: none;
+    }
+    main {
+        margin: 1em 0;
+    }
+    .products {
+        width: 100%;
+    }
+    .main {
+        margin-bottom: 1em;
+        height: 12em;
+    }
+    .part1 {
+        width: 40px;
+        height: 40px;
+        left: 4%;
+        top: 40%;
+    }
+    .part2, span  {
+        font-size: 13px;
+    }
+    .part3 {
+        height: 12em;
+    }
+    #circle1, #circle2 {
+        margin: 0;
+    }
+    .art {
+        display: block;
+        height: 40%;
+        width: 90%;
+        padding: 12px;
+    }
+    .img {
+        height: 110px;
+        width: 100%;
+    }
+
+    .odd, .even {
+        font-size: 12px;
+        padding: 1vh 6vw;
+        margin-left: 37%;
+    }
+}
